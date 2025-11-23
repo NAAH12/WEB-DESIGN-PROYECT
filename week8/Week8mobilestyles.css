@@ -1,0 +1,246 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #333333;
+    background-image: url(nature-background.jpg);
+    background-size: 100%, 100%;
+}
+#allPage {
+    background-color: #B2E65A;
+    width: 980px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 15px;
+    padding: 10px;
+    opacity: .75;
+}
+h1{
+    background-image: url(trilliumminibanner.jpg);
+    background-repeat: no-repeat;
+    height: 68px;
+    padding-left: 130px;
+    background-color: #D5ecb3;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 2.5em;
+    font-weight: 900;
+    padding-top: 15px;
+    border-radius: 15px;
+    color: #5c743d;
+    box-shadow: 5px 5px 30px #808080;
+}
+h2{
+    border-radius: 5px;
+    box-shadow: 3px 3px 3px #808080;
+    background-color: #D5ecb3;
+    background-image: url(trilliumbg.gif);
+    background-repeat: no-repeat;
+    padding-left: 30px;
+    color: #5c743d;
+}
+ul{
+    list-style-image: url(trillium.gif);
+}
+footer{
+    border-radius: 15px;
+    box-shadow: 5px 5px 5px #808080;
+    padding: 5px;
+    color: white;
+    background-color: #5c743d;
+    background-image: url(trilliumfoot.gif);
+    background-repeat: no-repeat;
+    background-position: right;
+    height: 80px;
+}
+a {
+    color: white;
+    text-decoration: none;
+    padding-right: 3px;
+    padding-left: 3px;
+}
+a:hover{
+    color: #5c743d;
+    background-color: #D5ecb3;
+}
+.businessName {
+    font-weight: bold;
+    font-style: italic;
+}
+.roundButton{
+    border-radius: 5px;
+    box-shadow: 3px 3px 3px #808080;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

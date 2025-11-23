@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+    <heaad>
+        <title>Weenk 9 - HTML FORMS</title>
+        <meta charset="utf-8">
+        <meta content="html forms, web design, com213" name="keywords">
+        <meta content="An example of using html" name="description">
+        <link href="Week9styles.css" rel="stylesheet" type="text/css">
+    </heaad>
+    <body>
+        <div id="allPage">
+            <header>
+                <img src="CC50thAnniversary.jpg" alt="Centennial college">
+                <h1>Centenncia College - resgistration form</h1>
+            </header>
+            <form action="mailto:nicolasariza120@gmail.com" method="post">
+                <fieldset>
+                    <legend>Personal Information</legend>
+                    <p>
+                        <label for="txtFname">First Name: </label>
+                        <input type="text" name="txtFname" id="txtFname" size="25" required="required">
+                    </p>
+                    <p>
+                        <label for="txtLName">Last Name: </label>
+                        <input type="text" name="txtLName" id="txtLName" size="25" required="required">
+
+                    </p>
+                    <p>
+                        <label for="txtEmail">Email: </label>
+                        <input type="email" name="txtEmail" id="txtEmail" size="30" required="required">
+
+                    </p>
+                    <p>
+                        <label for="txtPWD"> Create a PAssword: </label>
+                        <input type="password" name="txtPWD" id="txtPWD" size="16">
+
+                    </p>
+                    <p>
+                        <label for="txtConfirmPWD">Confirm Password: </label>
+                        <input type="password" name="txtConfirmPWD" id="txtConfirmPWD" size="16">
+
+                    </p>
+                    <P>
+                        <label for="optM">Gender</label>
+                        <input type="radio" name="optGen" id="optM" value="M">Male
+                        <input type="radio" name="optGen" id="optM" value="F">Female
+                    </P> 
+                    <p>
+                        <label for="txtColor">Favourite Color: </label>
+                        <input type="color" name="txtColor" id="txtColor" size="25" value="#000000">
+                    </p>
+                </fieldset>
+                <fieldset>
+                    <legend>Education Information</legend>
+                    <p>
+                        <label for="optEd"> Highest Level of Education</label>
+                        <input type="radio" name="optEd" id="optEd" value="Sec">Secondary
+                        <input type="radio" name="optEd" id="optEd" value="Col">College
+                        <input type="radio" name="optEd" id="optEd" value="Ugrad">Undergraduate
+                        <input type="radio" name="optEd" id="optEd" value="Grad">Graduate
+                        <input type="radio" name="optEd" id="optEd" value="Pgrad">Post graduate
+
+                     </p>
+                     <p>
+                        <label for="chkOS"> Computer knoledge</label>
+                        <input type="checkbox" name="chkOS" id="chkOS" value="OS"> Operating Systems
+                        <input type="checkbox" name="chkNet" id="chkNet" value="Prog"> Programming
+                        <input type="checkbox" name="chkWeb" id="chkWeb" value="Web"> Web design
+                        <input type="checkbox" name="chkDb" id="chkDb" value="DB"> Databases
+ 
+                     </p> 
+                     <p>
+                        <label for="1stcourses">Choose courses: </label>
+                        <select name="1stcourses" id="1stcourses" multiple="multiple" size="3">
+                            <option value="Co1">Computer 1 </option> 
+                            <option value="co2">Computer 2 </option>
+                            <option value="Co3">Computer 3</option>
+                        </select>
+                     </p>
+                     <p>
+                        <label for="txtStartDate"> Start Date: </label>
+                        <input type="date" name="txtStartDate" id="txtStartDate">
+
+                     </p>
+                     <p>
+                        <label for="txtSpecial"> Special Requirements: </label>
+                        <textarea id="txtSpecial" name="txtSpecial" cols="50" rows="8" placeholder="--please let us know something special"></textarea>
+                     </p>
+
+                </fieldset>
+                <input type="submit" name="btnSubmit" value="Complete Registration">
+                <input type="reset" name="btnReset" value="Reset Registration"
+            </form>
+        </div>
+    </body>
+</html>
