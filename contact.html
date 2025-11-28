@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="description" content="Contact Real Cent Agency">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Real Cent Agency</title>
+    <link rel="stylesheet" href="contact.css">
+</head>
+
+<body>
+<div id="allPage">
+
+    <header>
+        <h1>REAL CENT AGENCY</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="properties.html">Available Properties</a>
+            <a href="property1.html">Listing 1</a>
+            <a href="property2.html">Listing 2</a>
+            <a href="property3.html">Listing 3</a>
+            <a href="contact.html">Contact</a>
+            <a href="sitemap.html">Sitemap</a>
+        </nav>
+    </header>
+
+    <main>
+        <h2>Contact Us</h2>
+
+        <p>If you are looking for a specific property, fill out the form below and we will get back to you soon.</p>
+
+        <form method="post">
+
+            <label for="name">Full Name:</label>
+            <input type="text" id="name" name="Full Name" required>
+
+            <label for="email">Email Address:</label>
+            <input type="email" id="email" name="Email" required>
+
+            <label for="phone">Phone Number:</label>
+            <input type="tel" id="phone" name="Phone">
+
+            <label for="property">Property of Interest:</label>
+            <select id="property" name="property">
+                <option value="listing1">Listing 1 - Detached Home</option>
+                <option value="listing2">Listing 2 - Downtown Condo</option>
+                <option value="listing3">Listing 3 - TBD</option>
+                <option value="general">General Inquiry</option>
+            </select>
+
+            
+            <label for="type">Type of Property:</label>
+            <select id="type" name="Property Type" required>
+                <option value="House">House</option>
+                <option value="Condominium">Condominium</option>
+            </select>
+
+            
+            <label for="bedrooms">Number of Bedrooms:</label>
+            <select id="bedrooms" name="Bedrooms">
+                <option value="1 Bedroom">1</option>
+                <option value="2 Bedrooms">2</option>
+                <option value="3 Bedrooms">3</option>
+                <option value="4+ Bedrooms">4+</option>
+            </select>
+
+            
+            <label for="bathrooms">Number of Bathrooms:</label>
+            <select id="bathrooms" name="Bathrooms">
+                <option value="1 Bathroom">1</option>
+                <option value="2 Bathrooms">2</option>
+                <option value="3 Bathrooms">3</option>
+                <option value="4+ Bathrooms">4+</option>
+            </select>
+
+            
+            <label for="price">Price Range:</label>
+            <select id="price" name="Price Range">
+                <option value="$300k - $500k">$300,000 to $500,000</option>
+                <option value="$500k - $800k">$500,000 to $800,000</option>
+                <option value="$800k - $1M">$800,000 to $1,000,000</option>
+                <option value="$1M+">$1,000,000+</option>
+            </select>
+
+            
+            <label for="message">Additional Message:</label>
+            <textarea id="message" name="Message" rows="5"></textarea>
+
+            
+           <a href="mailto:realcentagency@gmail.com" class="mailButton">
+             Send Inquiry
+            </a>
+
+        </form>
+        
+
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Real Cent Agency Services</p>
+    </footer>
+
+</div>
+</body>
+</html>

@@ -18,6 +18,35 @@ main {
     border-radius: 8px;
 }
 
+#detailsamenities {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+.tablerow {
+    display: table;
+    width: 100%;
+    border-spacing: 20px;  
+}
+
+
+.tablecell {
+    display: table-cell;
+    width: 50%;
+    vertical-align: top;
+    background-color: #f7f7f7;
+    padding: 15px;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+}
+
+.tablecell h3 {
+    margin-top: 0;
+    color: #2d4a66;
+}
+
+
 header {
     background-color: #2d4a66;
     color: white;
